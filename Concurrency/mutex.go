@@ -29,6 +29,7 @@ func main() {
 			v++
 			contador = v
 			wu.Unlock()
+			println("goroutines:", runtime.NumGoroutine())
 			wg.Done()
 		}()
 	}
