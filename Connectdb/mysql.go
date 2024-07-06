@@ -1,3 +1,5 @@
+// docker run --name {DOCKER_NAME} -e MYSQL_ROOT_PASSWORD={PASSWORD} -d mysql:8
+// docker inspect {first four container id} and get "IPAddress": IP
 package main
 
 import (
@@ -18,7 +20,7 @@ type User struct {
 }
 
 func main() {
-	db, err = sql.Open("mysql", "root:test123@tcp(172.17.0.2:3306)/users_db")
+	db, err = sql.Open("mysql", "root:test123@tcp({IPAddress}:3306)/users_db")
 	if err != nil {
 		panic(err)
 	}
