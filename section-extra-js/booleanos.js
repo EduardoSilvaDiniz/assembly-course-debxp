@@ -14,6 +14,6 @@ let nome = ""
 //           false -- true
 console.log( nome || "desconhecido") // se nome estiver vazio, retorna outra string
 
-nome = "Rodrigo"
+nome = "rodrigo"
 //           true -- true
-console.log( nome || "desconhecido") // vai retonar o primeiro true
+console.log( nome || "Desconhecido") // vai retonar o primeiro true
