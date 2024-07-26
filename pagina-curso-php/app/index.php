@@ -51,7 +51,35 @@
           <ul>
             <li>
               <a href="exercicio.php?dir=tipos&file=int">
-                Tipo Inteiro
+                Inteiro
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="exercicio.php?dir=tipos&file=float">
+                Float
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="exercicio.php?dir=tipos&file=aritmeticas">
+                Op. Aritmeticas
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="exercicio.php?dir=tipos&file=desafioPrecedencia">
+                Desafio Precedência
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="exercicio.php?dir=tipos&file=string">
+                String
               </a>
             </li>
           </ul>
